@@ -57,3 +57,14 @@ const STORE_ADDRESS = "Estr. dos Romeiros, 3486 - Vila São Silvestre, Barueri -
     });
   }
 })();
+// Evento Google Analytics - clique no WhatsApp
+document.querySelectorAll('.js-whatsapp').forEach(function(botao) {
+  botao.addEventListener('click', function() {
+    if (typeof gtag === 'function') {
+      gtag('event', 'clique_whatsapp', {
+        event_category: 'Contato',
+        event_label: 'WhatsApp'
+      });
+    }
+  });
+});
