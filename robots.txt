@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://druzinho.github.io/gesso-romeiros/sitemap.xml
