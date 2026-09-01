@@ -68,3 +68,14 @@ document.querySelectorAll('.js-whatsapp').forEach(function(botao) {
     }
   });
 });
+// Evento Google Analytics - clique na Shopee
+document.querySelectorAll('.js-shopee').forEach(function(botao) {
+  botao.addEventListener('click', function() {
+    if (typeof gtag === 'function') {
+      gtag('event', 'clique_shopee', {
+        event_category: 'Venda',
+        event_label: 'Shopee'
+      });
+    }
+  });
+});
