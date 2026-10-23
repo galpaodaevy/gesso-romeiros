@@ -14,7 +14,7 @@ Para pré-visualizar localmente, sirva esta pasta com um servidor HTTP estático
 - WhatsApp preservado: +55 11 97831-1181. Telefone: +55 11 4210-1263.
 - Shopee preservada: https://shopee.com.br/gessoromeiros.
 - As consultas pelo WhatsApp incluem o produto escolhido. Nenhuma mensagem é enviada automaticamente.
-- Google Maps e Waze usam o endereço cadastrado. O destino não foi validado presencialmente. Não foram inventadas referências do entorno, horários ou estacionamento; o site oferece contato com a loja para orientação de chegada.
+- Google Maps e Waze usam o endereço cadastrado. O destino não foi validado presencialmente. Referência fornecida pelo responsável: ao lado do Restaurante Pedra Branca. Horários e estacionamento não foram informados; o site oferece contato com a loja para orientação de chegada.
 - Avaliações e números antigos não foram republicados sem verificação de atualidade.
 - Analytics existente preservado, com eventos de contato, filtros e rotas.
 
@@ -39,3 +39,9 @@ WebP com tamanhos adequados ao uso, recortes móveis, carregamento adiado abaixo
 ## Verificação
 
 Revisão visual e testes em Edge/Chromium nas larguras 320, 390, 768 e 1440 px. Verificados: ausência de excesso de largura, carregamento das imagens locais, filtros, consultas por produto, ampliação e fechamento de fotos, menu móvel, Escape, cópia do endereço e movimento reduzido. Os links de rota foram conferidos quanto ao destino configurado, sem realizar navegação física. O carregamento e os dados do Google Maps dependem do serviço externo.
+
+## Divulgação e compra
+
+A abertura destaca a fachada e conduz à loja existente em https://shopee.com.br/gessoromeiros, com atalhos no cabeçalho, seção própria e barra móvel. O catálogo mantém consultas por produto no WhatsApp: não há URLs individuais de anúncios confirmadas.
+
+A fachada usa a foto fornecida em peça publicitária, com retirada das faixas e reconstrução por IA das partes encobertas. A legenda informa o tratamento. Os arquivos `assets/fachada-romeiros-800.webp` e `assets/fachada-romeiros-1536.webp` são versões responsivas dessa reconstrução. A imagem não comprova detalhes do entorno. Consulte `DESIGN.md` para a direção visual.
